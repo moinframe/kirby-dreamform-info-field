@@ -13,5 +13,6 @@
 		"kirbyup": "^3.3.0",
 		"kirbyuse": "^0.12.1",
 		"release-it": "^19.0.2"
-	}
+	},
+	"version": "0.1.0"
 }

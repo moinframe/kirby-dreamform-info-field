@@ -3,8 +3,11 @@
 	"description": "Simple Info field for Kirby Dreamform",
 	"license": "MIT",
 	"type": "kirby-plugin",
-	"keywords": ["kirby-plugin", "dreamform"],
-	"version": "0.0.0",
+	"keywords": [
+		"kirby-plugin",
+		"dreamform"
+	],
+	"version": "0.1.0",
 	"authors": [
 		{
 			"name": "Justus Kraft",
