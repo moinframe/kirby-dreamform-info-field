@@ -1,5 +1,5 @@
 {
-	"name": "moinframe/dreamform-info-field",
+	"name": "moinframe/kirby-dreamform-info-field",
 	"description": "Simple Info field for Kirby Dreamform",
 	"license": "MIT",
 	"type": "kirby-plugin",

@@ -6,20 +6,20 @@ use Kirby\Cms\App as Kirby;
 
 \tobimori\DreamForm\DreamForm::register(InfoField::class);
 
-Kirby::plugin('moinframe/dreamform-info-field', [
+Kirby::plugin('moinframe/kirby-dreamform-info-field', [
     'snippets' => [
         'dreamform/fields/info' => __DIR__ . '/snippets/info-field.php',
     ],
     'translations' => [
         'en' => [
-            'moinframe.dreamform-info-field.title' => 'Info',
-            'moinframe.dreamform-info-field.label' => 'Text',
-            'moinframe.dreamform-info-field.placeholder' => 'Enter your text here',
+            'moinframe.kirby-dreamform-info-field.title' => 'Info',
+            'moinframe.kirby-dreamform-info-field.label' => 'Text',
+            'moinframe.kirby-dreamform-info-field.placeholder' => 'Enter your text here',
         ],
         'de' => [
-            'moinframe.dreamform-info-field.title' => 'Info',
-            'moinframe.dreamform-info-field.label' => 'Text',
-            'moinframe.dreamform-info-field.placeholder' => 'Geben Sie hier Ihren Text ein',
+            'moinframe.kirby-dreamform-info-field.title' => 'Info',
+            'moinframe.kirby-dreamform-info-field.label' => 'Text',
+            'moinframe.kirby-dreamform-info-field.placeholder' => 'Geben Sie hier Ihren Text ein',
         ],
     ],
 ]);

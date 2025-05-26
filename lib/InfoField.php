@@ -7,7 +7,7 @@ class InfoField extends Field
     public static function blueprint(): array
     {
         return [
-            'title' => t('moinframe.dreamform-info-field.title'),
+            'title' => t('moinframe.kirby-dreamform-info-field.title'),
             'label' => '{{ label }}',
             'preview' => 'info-field',
             'wysiwyg' => true,
@@ -17,9 +17,9 @@ class InfoField extends Field
                     'label' => t('dreamform.field'),
                     'fields' => [
                         'text' => [
-                            'label' => t('moinframe.dreamform-info-field.label'),
+                            'label' => t('moinframe.kirby-dreamform-info-field.label'),
                             'type' => 'writer',
-                            'placeholder' => t('moinframe.dreamform-info-field.placeholder'),
+                            'placeholder' => t('moinframe.kirby-dreamform-info-field.placeholder'),
                             'nodes' => [],
                             'required' => false,
                             'translate' => false,
